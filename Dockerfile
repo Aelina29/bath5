@@ -1,8 +1,8 @@
 # ARG DATASOURSE
 # ARG RESULTS
 FROM ubuntu:20.04
-
 # FROM python:3.8
+# FROM ultralytics/yolov5
 
 RUN apt-get update && \
    apt-get install --no-install-recommends -y python3 python3-pip
@@ -32,4 +32,4 @@ RUN mkdir results
 
 
 # run the command
-CMD ["python", "./app.py"]
+CMD ["python3", "./app.py"]
