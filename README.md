@@ -5,3 +5,8 @@ docker run -it -v "C:\Users\user\Desktop\NNforAnd\5bath\dataset:/usr/src/app/dat
 LINUX
 sudo docker build -t bath-teach .
 sudo docker run -it -v $(pwd)/data:/usr/src/app/data -v $(pwd)/results:/usr/src/app/results bath-teach
+sudo docker rmi -f 440f98576395
+
+d
+sudo docker build -t bath-teach2 .
+sudo docker run -it -v $(pwd)/data:/usr/src/app/datasets/data -v $(pwd)/results:/usr/src/app/results bath-teach2

@@ -1,6 +1,7 @@
 # train: 'dataset/train/images'
 # val: 'dataset/val/images'
- 
+
+path: 'data/'
 train: 'train/images'
 val: 'val/images'
 

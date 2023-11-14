@@ -12,6 +12,7 @@ COPY ./requirements.txt requirements.txt
 
 RUN pip install --no-cache-dir -r requirements.txt
 
+COPY ./bath.yaml bath.yaml
 RUN mkdir results
 
 CMD ["python3", "./app.py"]
