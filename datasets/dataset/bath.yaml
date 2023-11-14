@@ -1,0 +1,11 @@
+# train: 'dataset/train/images'
+# val: 'dataset/val/images'
+ 
+train: 'train/images'
+val: 'val/images'
+
+# class names
+names: 
+  0: 'soap'
+  1: 'toothbrush'
+  2: 'toothpaste'

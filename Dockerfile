@@ -5,7 +5,7 @@ FROM ubuntu:20.04
 # FROM ultralytics/yolov5
 
 RUN apt-get update && \
-   apt-get install --no-install-recommends -y python3 python3-pip
+   apt-get install --no-install-recommends -y python3 python3-pip libgl1 libglib2.0-0 libsm6 libxrender1 libxext6
 
 # set a directory for the app
 WORKDIR /usr/src/app
